@@ -1,0 +1,126 @@
+/* Main Color Scheme Variables */
+/* Resets */
+h1, h2, h3, h4, body, div, p, span, ul, li, input, button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans; }
+
+/* Header */
+#header {
+  background-color: #000000;
+  color: #dddddd;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-top: 8px;
+  min-height: 40px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center; }
+
+/* Wrapper */
+#wrapper {
+  overflow: hidden; }
+
+/* Log in and Registration */
+#login-register {
+  width: 45%;
+  min-height: 200px;
+  margin: 0 auto; }
+  @media screen and (max-width: 880px) {
+    #login-register {
+      width: 75%; } }
+  @media screen and (max-width: 480px) {
+    #login-register {
+      width: 100%; } }
+
+#login-registerTabs {
+  width: 100%; }
+
+#loginTab {
+  float: left;
+  margin-left: 5px; }
+  #loginTab:hover {
+    cursor: pointer; }
+
+#registerTab {
+  float: right;
+  margin-right: 5px; }
+  #registerTab:hover {
+    cursor: pointer; }
+
+.tabSelected {
+  background-color: #dddddd;
+  color: #000000;
+  width: 48%;
+  text-align: center;
+  padding-top: 5px;
+  min-height: 20px;
+  border-width: 1px 1px 0;
+  border-style: solid;
+  border-color: #555555;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+  z-index: 10;
+  top: 1px; }
+
+.tabUnselected {
+  background-color: #555555;
+  color: #dddddd;
+  width: 48%;
+  text-align: center;
+  padding-top: 5px;
+  min-height: 20px;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+  z-index: 10;
+  top: 1px; }
+
+.divisor {
+  clear: both; }
+
+#login-registerDisplay {
+  min-height: 400px;
+  background-color: #dddddd;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #555555;
+  border-radius: 0 0 5px 5px;
+  padding: 10px;
+  margin: 0 auto; }
+
+.frontDisplay {
+  width: 60%;
+  margin: 25px auto 0; }
+  .frontDisplay input {
+    margin-bottom: 5px; }
+
+.button {
+  background-color: #555555;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 3px;
+  width: 100px;
+  min-height: 20px;
+  margin: 10px auto;
+  border: 1px solid #555555; }
+  .button:hover {
+    cursor: pointer;
+    background-color: #dddddd;
+    color: #000000; }
+
+#loginDisplay {
+  min-width: 100px; }
+
+#loginForm {
+  font-size: 14px; }
+
+#registerDisplay {
+  min-width: 100px;
+  display: none; }
+
+#registerForm {
+  font-size: 14px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'/>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+	<title>Log In</title>
+	<link type='text/css' rel='stylesheet' href='style.css'/>
+</head>
+<body>
+	<div id='wrapper'>
+		<div id='header'>
+			Log In
+		</div>
+		<div id='login-register'>
+			<div id='login-registerTabs'>
+				<div id='loginTab' class='tab tabSelected'>Log In</div>
+				<div id='registerTab' class='tab tabUnselected'>Register</div>
+				<div class='divisor'></div>
+			</div>
+			<div id='login-registerDisplay'>
+				<div id='loginDisplay' class='frontDisplay'>
+					<form id='loginForm'>
+						username:<br><input class='input' id='loginUsername' type='text' maxlength='30'/><br>
+						password:<br><input class='input passwordInput' id='loginPassword' type='text' maxlength='15'/><br>
+					</form>
+					<div class='button' id='loginSubmit'>Submit</div>
+					<div class='responseMessage' id='loginMessage'></div>
+				</div>
+				<div id='registerDisplay' class='frontDisplay'>
+					<form id='registerForm'>
+						username:<br>(Alphanumeric Characters and underscores only)<br> <input class='input' id='registerUsername' type='text' maxlength='30'/><br>
+						password:<br>(Alphanumeric and !-.,'"`()#$&~ only)<br><input class='input passwordInput' id='registerPassword1' type='text' maxlength='15'/><br>
+						re-enter password:<br><input class='input passwordInput' id='registerPassword2' type='text' maxlength='15'/><br>
+						email:<br><input class='input' id='registerEmail' type='text' maxlength='40'/><br>
+						<!--input class='button' id='registerSubmit' type='submit'/-->
+					</form>
+					<div class='button' id='registerSubmit'>Submit</div>
+					<div class='responseMessage' id='registerMessage'>Passwords must contain at least one uppercase letter, one lowercase letter, one number and at one of the following special characters: !-.,'"`()#$&~</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<script type='text/javascript' src='indexFunctions.js'></script>
+	<script type='text/javascript' src='app.js'></script>
+</body>
+</html>
